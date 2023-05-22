@@ -11,7 +11,7 @@ def rock_paper_scissors(round):
     while round:
         
         while True:
-            
+             
             # move info 
             for index, move in enumerate(moves_list, 1):
                 print(index, move)
@@ -73,5 +73,5 @@ def rock_paper_scissors(round):
             print(f"{Fore.RED + 'The computer won.' + Fore.RESET}")
 
     
-game_round = int(input("How many rounds do you want to play? "))
+game_round = int(input("How many rounds do you want to play?? "))
 rock_paper_scissors(game_round)   
